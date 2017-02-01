@@ -1,0 +1,8 @@
+﻿<h2>Check out these awesome cars</h2>
+
+<table>
+    <tr ng-repeat="car in controller.cars">
+        <td><a ui-sref="carDetails ({id: car.id})"><img ng-src="{{car.imageUrl}}" width="120"/></a></td>
+        <td><a ui-sref="carDetails ({id: car.id})">{{car.shortDescription}}</a></td>
+    </tr>
+</table>

@@ -1,0 +1,48 @@
+﻿body {
+    background-color: burlywood;
+}
+
+img {
+    margin: 10px;
+    float: left;
+}
+
+.aboutCar {
+    background-color: red;
+    padding: 10px;
+    color: white;
+    font-weight: 700;
+}
+
+.carButtons {
+    clear: both;
+    float: none;
+}
+
+h1 {
+    font-family: Impact, Charoal, sans-serif;
+    color: purple;
+    font-size: 4em;
+}
+
+.btn-right {
+    float: right;
+}
+
+.mycarousel {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.pageheader {
+    background-color: #d4d4aa;
+    padding: 20px;
+}
+
+.tablediv {
+    background-color: antiquewhite;
+}
+
+.linky {
+    text-align: center;
+}

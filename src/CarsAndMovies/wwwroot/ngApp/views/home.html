@@ -1,0 +1,20 @@
+
+<h4>Welcome to Cars and Movies, the best site on the web combining two of everyone's favorite things!</h4>
+<h4>Here you will find some of the best movies and most beautiful cars around. So take a look, learn a bit, and enjoy!</h4>
+
+<div class="mycarousel">
+    <uib-carousel interval="3000" active="0">
+        <uib-slide ng-repeat="slide in controller.slides"  index="$index">
+            <img ng-src="{{slide.image}}" style="margin:auto" />
+        </uib-slide>
+    </uib-carousel>
+</div>
+
+<div class="container">
+    <div class="col-xs-6">
+        <a href="/cars"><h1 class="linky">Cars</h1></a>
+    </div>
+    <div class="col-xs-6">
+        <a href="/movies"><h1 class="linky">Movies</h1></a>
+    </div>
+</div>
